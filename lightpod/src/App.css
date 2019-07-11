@@ -8,7 +8,6 @@
   pointer-events: none;
 }
 
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -18,23 +17,107 @@
   }
 }
 
-/* -------------------------------------------- NavBar ---------------------------- */
+/* -------------------------------------------- NavBar Component---------------------------- */
 
-.navbar-light{
+.navbar-light {
   background-color: rgba(0, 0, 0, 0.8) !important;
 }
 
-    .navbar-brand{
-      color: white !important;
-      border: 1px solid white;
-      padding: 3px;
-      border-radius: 3px;
-    }
+.navbar-brand {
+  color: white !important;
+  border: 1px solid white;
+  padding: 3px;
+  border-radius: 3px;
+}
 
-  .navbar-brand:hover{
-    cursor: pointer;
-  }  
+.navbar-brand:hover {
+  cursor: pointer;
+}
+
+.login {
+  margin-right: 10px;
+}
+.login a,
+.login a:hover {
+  text-decoration: none;
+  color: #28a745;
+}
 
   .login{
     margin-right: 10px; 
   }
+  .login a, .login a:hover {
+    text-decoration: none;
+    color: #28a745; 
+  }
+
+  .login a:hover {
+    text-decoration: none;
+    color: #FFF; 
+  }
+  .navbar-brand  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .navbar-brand  a:hover {
+    text-decoration: none;
+    color: white;
+  }
+
+  .username{
+    margin-right: 10px;
+  }
+
+  
+  /* ------------------------------------ Login Component ----------------------------- */
+
+  .login-container{
+    width: 400px;
+    margin: auto;
+    margin-top: 200px;
+  }
+
+  .login-submit{
+    width: 100%;
+    font-weight: bold !important;
+  font-size: 20px !important;
+  }
+
+  .login-header{
+    float: left !important;
+    background-color: darkgrey;
+    width: 100%;
+    text-align: start !important;
+    padding: 10px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+
+  /* -----------------------------------home podcast lists ----------------------------------- */
+
+  .col-md-4{
+    min-width: fit-content !important;
+  }
+
+  .col-md-4 div{
+    margin: 15px 15px;
+  }
+
+  .col-md-4 a{
+   text-decoration: none;
+   color: black;
+   align-items: center !important;
+  }
+
+  .col-md-4 a p{
+    text-align: center !important;
+   }
+
+   .col-md-4 a:hover{
+    text-decoration: none;
+    color: black;
+    align-items: center !important;
+   }
